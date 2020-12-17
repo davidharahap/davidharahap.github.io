@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form >
+        <p><label>Nama:</label> <input type="text" name="nama" placeholder="Masukkan nama" required></p>
+        <p><label>Email:</label> <input type="email" placeholder="Masukkan email" required></p>
+        <p><label>Password:</label> <input type="paassword" placeholder="Masukkan password" required></p>
+        <p><label>Nomor Telefon:</label> <input type="text" placeholder="Masukkan nomor telefon" required></p>
+        <p><label>Jenis Kelamin:</label>
+            <input type="radio" name="gender" value="laki-laki"><label>Laki-laki</label>
+            <input type="radio" name="gender" value="perempuan"><label>Perempuan</label>
+        </p>
+        <p><label name="hobi">Hobi:</label>
+            <input type="checkbox" value="belajar" checked><label>pelihara ikan cupang</label>
+            <input type="checkbox" value="olahraga"><label>main kelereng</label>
+            <input type="checkbox" value="main musik"><label>Basket</label>
+            <input type="checkbox" value="memelihara binatang"><label>Futsal</label>
+        </p>
+        <p><label>Agama:</label>
+            <select name="agama">
+                <option value="">Silahkan pilih agama</option>
+                <option value="Kristen Protestan">Kristen Advent</option>
+                <option value="Islam">Islam</option>
+                <option value="Budha">Budha</option>
+                <option value="Konghucu">Khonghucu</option>
+                <option value="Katolik">Khatolik</option>
+            </select>
+        </p>
+        <p><label>Alamat:</label> <textarea rows="5" cols="30" name="alamat"></textarea> </p>
+      <input type="submit" value="Simpan">
+      <input type="reset">
+    </form>
+</body>
+</html>
